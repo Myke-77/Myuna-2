@@ -5,7 +5,7 @@ const ytdl = require('ytdl-core');
 const { YTSearcher } = require('ytsearcher');
  
 const searcher = new YTSearcher({
-    key: "AIzaSyBbsqVktiZEuNPoN4EORWgqvjtLB-3gBag",
+    key: "",
     revealed: true
 });
  
@@ -109,4 +109,4 @@ client.on("message", async(message) => {
     }
 })
  
-client.login("ODY1NDg5NTI4OTAzMTcyMDk3.YPEv7w.nH4dJEgdg9EZCQgstZwc6RlGcIE")
+client.login("")
